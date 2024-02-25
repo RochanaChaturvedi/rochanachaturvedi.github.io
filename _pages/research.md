@@ -13,8 +13,3 @@ nav_order: 3
 {% bibliography %}
 
 </div>
-
-<div class="publications">
-<h1> Works in Progress </h1>
-{% bibliography -f progress %}
-</div>
