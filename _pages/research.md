@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Research
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->
@@ -12,4 +12,9 @@ nav_order: 2
 <h6 align="right"><small>* indicates equal contribution</small></h6>
 {% bibliography %}
 
+</div>
+
+<div class="publications">
+<h1> Works in Progress </h1>
+{% bibliography -f progress %}
 </div>
