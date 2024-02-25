@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 2
+#cv_pdf: CV_ROCHANA CHATURVEDI.pdf
 ---
+<object data="/assets/pdf/CV_ROCHANA CHATURVEDI.pdf" type="application/pdf" width="100%" height="800px">
+  <p>Download my CV <a href="CV_ROCHANA CHATURVEDI.pdf">here</a> </p>  
+</object>
