@@ -11,6 +11,4 @@ nav_order: 3
 <h1> Publications </h1>
 <h6 align="right"><small>* indicates equal contribution</small></h6>
 {% bibliography %}
-<!-- <h1> Works in Progress </h1>
-{% bibliography -f progress %} -->
 </div>
