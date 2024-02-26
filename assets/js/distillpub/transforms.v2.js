@@ -905,7 +905,7 @@
       if (url.slice(-4) == ".pdf") {
         var label = "PDF";
       } else if (url.slice(-5) == ".html") {
-        var label = "LINK";
+        var label = "HTML";
       }
       return ` &ensp;<a href="${url}">[${label || "link"}]</a>`;
     } /* else if ("doi" in ent){
