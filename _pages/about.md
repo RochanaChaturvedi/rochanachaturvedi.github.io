@@ -19,6 +19,5 @@ I am a Ph.D. candidate at the [Natural Language Processing (NLP) Lab, University
 
 Prior to my doctoral studies, I served as an Assistant Professor of Computer Science at Keshav Mahavidyalaya, University of Delhi, and held the position of Associate Software Engineer at Objective Systems Integrators. I hold a Masters in Computer Applications and Bachelors in Physics.
 
-<object data="/assets/pdf/CV_ROCHANA_CHATURVEDI.pdf" type="application/pdf" width="100%" height="800px">
-  <p>Download my CV <a href="CV_ROCHANA_CHATURVEDI.pdf">here</a> </p>  
-</object>
+<p>Download my CV <a href="/assets/pdf/CV_ROCHANA_CHATURVEDI.pdf">here</a> </p>  
+
