@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-2-24
+date: 2025-5-2
 inline: true
 ---
 
-Announcing successful defense of my PhD proposal, officially entering candidacy and embarking on the next phase of my academic journey! :relaxed:
+🚨 Our [research](https://arxiv.org/abs/2504.21400) on gender bias in open-source AI models was featured in The [Register](https://www.theregister.com/2025/05/02/open_source_ai_models_gender_bias/)! 
