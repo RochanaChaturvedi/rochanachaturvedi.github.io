@@ -15,9 +15,11 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Fellow at Argonne National Laboratory, where I develop large language models for scientific applications, with a current focus on climate information systems. My work aims to advance scientific discovery and societal well-being through language technologies, spanning clinical informatics, computational social science, and climate science communication.
+I am a Postdoctoral Fellow at Argonne National Laboratory, where I develop and apply large language models for scientific applications. My work aims to advance scientific discovery and societal well-being through language technologies with applications across healthcare, social science, and climate science communication.
 
-I earned my Ph.D. in Computer Science from the University of Illinois Chicago, where my dissertation advanced clinical temporal relation extraction and introduced novel methods for multi-document temporal reasoning to enable early Type 2 Diabetes detection by integrating graph neural networks, language models, and external knowledge bases. Beyond clinical NLP, I investigate human behavior and societal dynamics through computational methods, tackling challenges such as identity inference, social media polarization and mitigation strategies, covert gender disparities in large language models and their labor market implications, and enhancing the robustness of model responses.
+I earned my Ph.D. in Computer Science from the University of Illinois Chicago, where I developed novel methods to extract and reason about temporal relationships in clinical text. My dissertation integrated graph neural networks, language models, and external knowledge bases to enable early detection of Type 2 Diabetes. I was fortunate to have Prof. Barbara Di Eugenio as my advisor and was grateful to receive mentorship from Prof. Elena Zheleva and Prof. Sourav Medya.
+
+In social sciences, I employ computational approaches to explore societal dynamics and use language models to understand and model aspects of human behavior. I tackle challenges such as identity inference, social media polarization and its mitigation, and covert gender biases in large language models with their labor market impact.
 
 Before my doctoral studies, I served as an Assistant Professor of Computer Science at Keshav Mahavidyalaya, University of Delhi, and worked as an Associate Software Engineer at Objective Systems Integrators. I hold Master's degrees in Computer Science and Computer Applications, and a Bachelor's degree in Physics.
   
