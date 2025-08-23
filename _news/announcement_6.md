@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-5-2
+date: 2025-5-15
 inline: true
 ---
 
-🚨 Our [research](https://arxiv.org/abs/2504.21400) on gender bias in open-source AI models was featured in The [Register](https://www.theregister.com/2025/05/02/open_source_ai_models_gender_bias/)! 
+🎉 Excited to share that our paper, **"Temporal Relation Extraction in Clinical Texts: A Span-based Graph Transformer Approach,"** has been accepted to [ACL 2025](https://aclanthology.org/2025.acl-long.1251/)! 📄 

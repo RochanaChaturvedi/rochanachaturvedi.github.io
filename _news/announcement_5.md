@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-1-23
+date: 2025-5-2
 inline: true
 ---
 
-:confetti_ball: Thrilled to share that our paper Bridging or Breaking: Impact of Intergroup Interactions on Religious Polarization has been accepted at the ACM Web Conference 2024! Also presenting my thesis research "Temporal Knowledge Graph Extraction and Modeling across Multiple Documents for Health Risk Prediction" at the PhD symposium! :hourglass: Big thanks to NSF for the conference travel award! :raised_hands:
+🚨 Our [research](https://arxiv.org/abs/2504.21400) on gender bias in open-source AI models was featured in The [Register](https://www.theregister.com/2025/05/02/open_source_ai_models_gender_bias/)! 
