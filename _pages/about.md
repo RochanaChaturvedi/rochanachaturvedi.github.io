@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a Postdoctoral Fellow at Argonne National Laboratory, where I develop and apply large language models for scientific applications. My work aims to advance scientific discovery and societal well-being through language technologies with applications across healthcare, social science, and infrastructure resilience.
 
-I earned my Ph.D. in Computer Science from the University of Illinois Chicago, where I developed novel methods to extract and reason about temporal relationships in clinical text. My dissertation integrated graph neural networks, language models, and external knowledge bases to enable early detection of Type 2 Diabetes. I was fortunate to have Prof. Barbara Di Eugenio as my advisor and was grateful to receive mentorship from Prof. Elena Zheleva and Prof. Sourav Medya.
+I earned my Ph.D. in Computer Science from the University of Illinois Chicago, where I was advised by Prof. Barbara Di Eugenio and was grateful to receive mentorship from Prof. Elena Zheleva and Prof. Sourav Medya. My dissertation introduced novel methods integrating graph neural networks, language models, and external knowledge bases to extract and reason about temporal relationships and enable early detection of Type 2 Diabetes.
 
 In social sciences, I employ computational approaches to explore societal dynamics and use language models to understand and model aspects of human behavior. I tackle challenges such as identity inference, social media polarization and its mitigation, and covert gender biases in large language models with their labor market impact.
 
