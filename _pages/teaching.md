@@ -15,7 +15,7 @@ nav_order: 4
   * Linear Algebra <a href="/assets/pdf/teaching/Linear Algebra.pdf">View Syllabus</a>
   * Introduction to Data Science <a href="/assets/pdf/teaching/Data Science.pdf">View Syllabus</a>
   * Data Mining <a href="/assets/pdf/teaching/Data Mining.pdf">View Syllabus</a>
-  * Computer System Architecture <a href="/assets/pdf/teaching/CSA(H).pdf">View Syllabus</a>
+  * Computer System Architecture <a href="/assets/pdf/teaching/csaH.pdf">View Syllabus</a>
 
 * B.Sc. (Program)
   * Introduction to Python Programming <a href="/assets/pdf/teaching/python.pdf">View Syllabus</a>
