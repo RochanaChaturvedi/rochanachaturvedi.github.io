@@ -22,4 +22,4 @@ I earned my Ph.D. in Computer Science from the University of Illinois Chicago, w
 I also employ computational approaches to explore societal dynamics and use language models to understand and model aspects of human behavior. In this space, I examine identity inference, social media polarization and its mitigation  through language in online contexts, as well as gender bias in LLM-driven recruitment associated with job advertisement language, and the impact of behavioral alignment on these biases.
 
 Before my doctoral studies, I served as an Assistant Professor of Computer Science at Keshav Mahavidyalaya, University of Delhi, and worked as an Associate Software Engineer at Objective Systems Integrators. I hold Masters' degrees in Computer Science and Computer Applications, and a Bachelor's degree in Physics.
-  
+ 
