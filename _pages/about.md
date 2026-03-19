@@ -15,7 +15,7 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Fellow at the Kellogg School of Management and the Northwestern Institute on Complex Systems (NICO), working with Professor Brian Uzzi on understanding the role of textual information in shaping behavior and outcomes in financial systems. My research lies at the intersection of natural language processing, graph-structured modeling, and causal machine learning, with applications across scientific and socio-economic domains.
+I am a Postdoctoral Fellow at the Kellogg School of Management and the Northwestern Institute on Complex Systems (NICO), working with Professor Brian Uzzi using text data to study decision-making in dynamic environments. My research lies at the intersection of natural language processing, graph-structured modeling, and causal machine learning, with applications across scientific and socio-economic domains.
 
 I earned my Ph.D. in Computer Science from the University of Illinois Chicago, where I was advised by Prof. Barbara Di Eugenio and was grateful to receive mentorship from Prof. Elena Zheleva and Prof. Sourav Medya. My dissertation introduced novel methods for extracting and reasoning about temporal relations from clinical notes and integrating with clinical knowledge base to enable early detection of Type 2 Diabetes.
 
