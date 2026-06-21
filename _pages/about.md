@@ -24,5 +24,5 @@ I am motivated by compelling applications, and some of the areas that I study in
 
 I am currently a Postdoctoral Fellow at the  [Kellogg School of Management](https://www.kellogg.northwestern.edu/) at Northwestern University and the [Northwestern Institute on Complex Systems (NICO)](https://www.nico.northwestern.edu/). I previously served as a Postdoctoral Fellow in the [Mathematics and Computer Science Division](https://www.anl.gov/mcs) at [Argonne National Laboratory](https://www.anl.gov/). I earned my Ph.D. and Master's in Computer Science from the [University of Illinois Chicago](https://cs.uic.edu/).
 
-Before my doctoral studies, I served as an Assistant Professor of Computer Science at Keshav Mahavidyalaya, University of Delhi, and worked as an Associate Software Engineer at Objective Systems Integrators. I hold a prior Master's degrees in Computer Applications from Guru gobind singh Indraprastha University, and a Bachelor's degree in Physics from the University of Delhi.
+Before my doctoral studies, I served as an Assistant Professor of Computer Science at Keshav Mahavidyalaya, University of Delhi, and worked as an Associate Software Engineer at Objective Systems Integrators. I hold a prior Master's degree in Computer Applications from Guru Gobind Singh Indraprastha University, and a Bachelor's degree in Physics from the University of Delhi.
  
