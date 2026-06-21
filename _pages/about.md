@@ -15,11 +15,14 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Fellow at the Kellogg School of Management and the Northwestern Institute on Complex Systems (NICO), working with Professor Brian Uzzi using text data to study decision-making in dynamic environments. My research lies at the intersection of natural language processing, graph-structured modeling, and causal machine learning, with applications across scientific and socio-economic domains.
+My research spans different aspects of natural language processing, graph-structured modeling, and causal machine learning. My research goal is to develop methods that extract structure and meaning from complex, unstructured text to address problems of real societal consequence. I focus on two broad questions:
 
-I earned my Ph.D. in Computer Science from the University of Illinois Chicago, where I was advised by Prof. Barbara Di Eugenio and was grateful to receive mentorship from Prof. Elena Zheleva and Prof. Sourav Medya. My dissertation introduced novel methods for extracting and reasoning about temporal relations from clinical notes and integrating with clinical knowledge base to enable early detection of Type 2 Diabetes.
+Extracting structure from text to support decisions. I develop methods to model temporally and causally grounded knowledge from unstructured, longitudinal text — from clinical notes to social and behavioral data — to improve decision support systems and understand how language reflects and shapes human behavior, including group affiliation and polarization.
+Making language model behavior trustworthy. I study how design and alignment choices in LLMs give rise to bias in high-stakes decision-making, and build reliable, efficient NLP systems through evaluation frameworks that address robustness and security at scale.
 
-I also employ computational approaches to explore societal dynamics and use language models to understand and model aspects of human behavior. In this space, I examine identity inference, social media polarization and its mitigation through language in online contexts, as well as gender bias in LLM-driven recruitment associated with job advertisement language, and the impact of behavioral alignment on these biases.
+I am motivated by compelling applications, and some of the areas that I study include clinical NLP, computational social science, behavioral finance, and AI fairness, alignment, and security.
 
-Before my doctoral studies, I served as an Assistant Professor of Computer Science at Keshav Mahavidyalaya, University of Delhi, and worked as an Associate Software Engineer at Objective Systems Integrators. I hold Masters' degrees in Computer Science and Computer Applications, and a Bachelor's degree in Physics.
+I am currently a Postdoctoral Fellow at the  [Kellogg School of Management](https://www.kellogg.northwestern.edu/) at Northwestern University and the [Northwestern Institute on Complex Systems (NICO)](https://www.nico.northwestern.edu/). I previously served as a Postdoctoral Fellow in the [Mathematics and Computer Science Division](https://www.anl.gov/mcs) at [Argonne National Laboratory](https://www.anl.gov/). I earned my Ph.D. and Master's in Computer Science from the [University of Illinois Chicago](https://cs.uic.edu/).
+
+Before my doctoral studies, I served as an Assistant Professor of Computer Science at Keshav Mahavidyalaya, University of Delhi, and worked as an Associate Software Engineer at Objective Systems Integrators. I hold a prior Master's degrees in Computer Applications from Guru gobind singh Indraprastha University, and a Bachelor's degree in Physics from the University of Delhi.
  
