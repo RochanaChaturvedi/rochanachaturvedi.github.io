@@ -17,8 +17,8 @@ social: true # includes social icons at the bottom of the page
 
 My research spans different aspects of natural language processing, graph-structured modeling, and causal machine learning. My research goal is to develop methods that extract structure and meaning from complex, unstructured text to address problems of real societal consequence. I focus on two broad questions:
 
-Extracting structure from text to support decisions. I develop methods to model temporally and causally grounded knowledge from unstructured, longitudinal text — from clinical notes to social and behavioral data — to improve decision support systems and understand how language reflects and shapes human behavior, including group affiliation and polarization.
-Making language model behavior trustworthy. I study how design and alignment choices in LLMs give rise to bias in high-stakes decision-making, and build reliable, efficient NLP systems through evaluation frameworks that address robustness and security at scale.
+- **Extracting structure from text to support decisions.** I develop methods to model temporally and causally grounded knowledge from unstructured, longitudinal text — from clinical notes to social and behavioral data — to improve decision support systems and understand how language reflects and shapes human behavior, including group affiliation and polarization.
+- **Making language model behavior trustworthy.** I study how design and alignment choices in LLMs give rise to bias in high-stakes decision-making, and build reliable, efficient NLP systems through evaluation frameworks that address robustness and security at scale.
 
 I am motivated by compelling applications, and some of the areas that I study include clinical NLP, computational social science, behavioral finance, and AI fairness, alignment, and security.
 
