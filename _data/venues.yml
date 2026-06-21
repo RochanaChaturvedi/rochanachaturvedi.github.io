@@ -1,6 +1,27 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"TACL":
+  url: https://transacl.org/
+  color: "#c0392b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACL":
+  url: https://aclanthology.org/
+  color: "#2980b9"
+
+"WWW":
+  url: https://thewebconf.org/
+  color: "#27ae60"
+
+"WWW Companion":
+  url: https://thewebconf.org/
+  color: "#27ae60"
+
+"Pol. Analysis":
+  url: https://www.cambridge.org/core/journals/political-analysis
+  color: "#8e44ad"
+
+"BIBM":
+  url: https://ieeebibm.org/
+  color: "#d35400"
+
+"SDP @ EMNLP":
+  url: https://sdproc.org/
+  color: "#16a085"
