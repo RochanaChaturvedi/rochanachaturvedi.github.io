@@ -2,13 +2,21 @@
 ---
  
 @article{chaturvedi2026tacl,
-  title={Early Risk Prediction with Temporally and Contextually Grounded Clinical Language Processing},
-  author={Chaturvedi, Rochana and Zhou, Yue and Boyd, Andrew D. and Layden, Brian T. and Rashid, Mudassir and Cheng, Lu and Cinar, Ali and Di Eugenio, Barbara},
-  journal={Transactions of the Association for Computational Linguistics},
-  year={2026},
   abbr={TACL},
   arxiv={2511.22038},
-  html={https://arxiv.org/abs/2511.22038},
+  author = {Chaturvedi, Rochana and Zhou, Yue and Boyd, Andrew and Layden, Brian T. and Rashid, Mudassir and Cheng, Lu and Cinar, Ali and Eugenio, Barbara Di},
+    title = {Early Risk Prediction with Temporally and Contextually Grounded Clinical Language Processing},
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {14},
+    pages = {1711-1733},
+    year = {2026},
+    month = {07},
+    abstract = {Clinical notes in Electronic Health Records (EHRs) capture rich temporal information on events, clinician reasoning, and lifestyle factors often missing from structured data. Leveraging them for predictive modeling can be impactful for timely identification of chronic diseases. However, they present core natural language processing (NLP) challenges: long text, irregular event distribution, complex temporal dependencies, privacy constraints, and resource limitations. We present two complementary methods for temporally and contextually grounded risk prediction from longitudinal notes. First, we introduce HITGNN, a hierarchical temporal graph neural network that integrates intranote temporal event structures, inter-visit dynamics, and medical knowledge to model patient trajectories with fine-grained temporal granularity. Second, we propose REVEAL, a lightweight test-time framework that distills LLMs’ reasoning into smaller verifier models. Applied to opportunistic screening for Type 2 Diabetes (T2D) using temporally realistic cohorts curated from private and public hospital corpora, HITGNN achieves the highest predictive accuracy—especially for near-term risk—while preserving privacy and limiting reliance on large proprietary models. REVEAL enhances sensitivity to true T2D cases and retains explanatory reasoning. Our ablations confirm the value of temporal structure and knowledge augmentation, and fairness analysis shows HITGNN performs more equitably across subgroups.},
+    issn = {2307-387X},
+    doi = {10.1162/TACL.a.748},
+    html = {https://doi.org/10.1162/TACL.a.748},
+    eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/TACL.a.748/2612379/tacl.a.748.pdf},
+
   abstract={Clinical notes in Electronic Health Records (EHRs) capture rich temporal information on events, clinician reasoning, and lifestyle factors often missing from structured data. Leveraging them for predictive modeling can be impactful for timely identification of chronic diseases. However, they present core natural language processing (NLP) challenges: long text, irregular event distribution, complex temporal dependencies, privacy constraints, and resource limitations. We present two complementary methods for temporally and contextually grounded risk prediction from longitudinal notes. First, we introduce HiTGNN, a hierarchical temporal graph neural network that integrates intra-note temporal event structures, inter-visit dynamics, and medical knowledge to model patient trajectories with fine-grained temporal granularity. Second, we propose ReVeAL, a lightweight test-time framework that distills LLMs' reasoning into smaller verifier models. Applied to opportunistic screening for Type 2 Diabetes (T2D) using temporally realistic cohorts curated from private and public hospital corpora, HiTGNN achieves the highest predictive accuracy, especially for near-term risk, while preserving privacy and limiting reliance on large proprietary models. ReVeAL enhances sensitivity to true T2D cases and retains explanatory reasoning. Our ablations confirm the value of temporal structure and knowledge augmentation, and fairness analysis shows HiTGNN performs more equitably across subgroups.}
 }
 
