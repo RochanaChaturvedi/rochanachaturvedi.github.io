@@ -1,27 +1,47 @@
 "TACL":
   url: https://transacl.org/
-  color: "#c0392b"
+  color: "#922B21"  
 
 "ACL":
   url: https://aclanthology.org/
-  color: "#2980b9"
+  color: "#C0392B" 
+  
+"EMNLP":
+  url: https://aclanthology.org/
+  color: "#E74C3C"  
 
 "WWW":
   url: https://thewebconf.org/
-  color: "#27ae60"
+  color: "#E74C3C"  
 
-"WWW Companion":
-  url: https://thewebconf.org/
-  color: "#27ae60"
-
-"Pol. Analysis":
-  url: https://www.cambridge.org/core/journals/political-analysis
-  color: "#8e44ad"
+"SC":
+  url: https://supercomputing.org/
+  color: "#F1948A" 
 
 "BIBM":
   url: https://ieeebibm.org/
-  color: "#d35400"
+  color: "#229954"
+
+"JMIR":
+  url: https://www.jmir.org/
+  color: "#27AE60"
+
+"AMIA":
+  url: https://amia.org/
+  color: "#52BE80"
+
+"Pol. Analysis":
+  url: https://www.cambridge.org/core/journals/political-analysis
+  color: "#2471A3"
+
+"WWW Companion":
+  url: https://thewebconf.org/
+  color: "#F9E79F"
+
+"NLG4Health":
+  url: https://aclanthology.org/venues/nlg4health/
+  color: "#D4AC0D"
 
 "SDP @ EMNLP":
   url: https://sdproc.org/
-  color: "#16a085"
+  color: "#D4AC0D" 
