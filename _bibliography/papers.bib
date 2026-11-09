@@ -1,79 +1,79 @@
 ---
 ---
 @INPROCEEDINGS{ockerman2026more,
-author = {Ockerman, Seth and Oh, Song Young and Gueroudji, Amal and Chaturvedi, Rochana and Carns, Philip and Chia, Nicholas and
-Dorier, Matthieu and Latham, Robert and Mallick, Tanwi and Perarnau, Swan and Underwood, Robert and Chard, Kyle and
-Foster, Ian and Ross, Robert and Venkataraman, Shivaram},
-title = {When More Cores Hurts: The Vector Database Scaling Paradox in HPC},
-abbr={SC},
-booktitle = {Proceedings of SC26: The International Conference for High Performance Computing, Networking, Storage, and Analysis (forthcoming)},
-year      = {2026},
-address   = {Chicago, IL, USA},
-html       = {https://arxiv.org/abs/2606.08950},
-abstract = {Vector databases have been designed and optimized for cloud environments; however, emerging scientific AI workloads (e.g., molecular search, meteorological trajectory detection, and literature-driven hypothesis generation) demand efficient, scalable execution on HPC systems. We present a large-scale evaluation of three state-of-the-art vector databases -- Qdrant, Milvus, and Weaviate -- on two production supercomputers, scaling to 256 distributed workers across 64 compute nodes. We evaluate representative workload patterns -- mixed read/write and write-then-read -- using popular benchmarks, multimodal embeddings, and a novel real-world scientific dataset. Our results reveal that workload characteristics can limit latency reduction, additional cores can reduce query throughput by up to 30.67%, and scaling from 16 to 256 workers (16x) only yields a 5.46x improvement. This scaling paradox exposes the fundamental mismatch between cloud-oriented designs and HPC systems, highlighting the need for new, HPC-aware vector database designs.}
+  author = {Ockerman, Seth and Oh, Song Young and Gueroudji, Amal and Chaturvedi, Rochana and Carns, Philip and Chia, Nicholas and
+  Dorier, Matthieu and Latham, Robert and Mallick, Tanwi and Perarnau, Swan and Underwood, Robert and Chard, Kyle and
+  Foster, Ian and Ross, Robert and Venkataraman, Shivaram},
+  title = {When More Cores Hurts: The Vector Database Scaling Paradox in HPC},
+  abbr={SC},
+  booktitle = {Proceedings of SC26: The International Conference for High Performance Computing, Networking, Storage, and Analysis (forthcoming)},
+  year      = {2026},
+  address   = {Chicago, IL, USA},
+  html       = {https://arxiv.org/abs/2606.08950},
+  abstract = {Vector databases have been designed and optimized for cloud environments; however, emerging scientific AI workloads (e.g., molecular search, meteorological trajectory detection, and literature-driven hypothesis generation) demand efficient, scalable execution on HPC systems. We present a large-scale evaluation of three state-of-the-art vector databases -- Qdrant, Milvus, and Weaviate -- on two production supercomputers, scaling to 256 distributed workers across 64 compute nodes. We evaluate representative workload patterns -- mixed read/write and write-then-read -- using popular benchmarks, multimodal embeddings, and a novel real-world scientific dataset. Our results reveal that workload characteristics can limit latency reduction, additional cores can reduce query throughput by up to 30.67%, and scaling from 16 to 256 workers (16x) only yields a 5.46x improvement. This scaling paradox exposes the fundamental mismatch between cloud-oriented designs and HPC systems, highlighting the need for new, HPC-aware vector database designs.}
 }
 
 @INPROCEEDINGS{shomee-etal-2026-score,
-    author = "Shomee, Homaira Huda and Chaturvedi, Rochana  and Xie, Yangxinyu and Mallick, Tanwi",
-    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
-    abbr={EMNLP},
-    title = {SCORE: Specificity, Context Utilization, Robustness, and Relevance for Reference-Free LLM Evaluation},
-    year = {2026},
-    address = {Budapest, Hungary},
-    publisher = {Association for Computational Linguistics},
-    html = {https://aclanthology.org/2026.emnlp-main.934/},
-    doi = {10.18653/2026.emnlp-main.934},
-    pages = {21515--21542},
-    ISBN = {979-8-89176-459-0},
-    abstract = {Large language models (LLMs) are increasingly used to support question answering and decision-making in high-stakes, domain-specific settings such as natural hazard response and infrastructure planning, where effective answers must convey fine-grained, decision-critical details. However, existing evaluation frameworks for retrieval-augmented generation (RAG) and open-ended question answering primarily rely on surface-level similarity, factual consistency, or semantic relevance, and often fail to assess whether responses provide the specific information required for domain-sensitive decisions. To address this gap, we propose a multi-dimensional, reference-free evaluation framework that assesses LLM outputs along four complementary dimensions: specificity, context utilization, robustness to paraphrasing and semantic perturbations, and answer relevance. We introduce ClimateRiskQA, a curated dataset of 1,412 domain-specific question{--}answer pairs spanning 40 professional roles and seven natural hazard types, and further evaluate on PubMedQA to examine cross-domain generalization. We also conduct human evaluation to assess inter-annotator agreement and alignment between model outputs and human judgments, which highlights the inherent subjectivity of open-ended, domain-specific evaluation. Our results show that no single metric sufficiently captures answer quality in isolation and demonstrate the need for structured, multi-metric evaluation frameworks when deploying LLMs in high-stakes applications.}
+  author = "Shomee, Homaira Huda and Chaturvedi, Rochana  and Xie, Yangxinyu and Mallick, Tanwi",
+  booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+  abbr={EMNLP},
+  title = {SCORE: Specificity, Context Utilization, Robustness, and Relevance for Reference-Free LLM Evaluation},
+  year = {2026},
+  address = {Budapest, Hungary},
+  publisher = {Association for Computational Linguistics},
+  html = {https://aclanthology.org/2026.emnlp-main.934/},
+  doi = {10.18653/2026.emnlp-main.934},
+  pages = {21515--21542},
+  ISBN = {979-8-89176-459-0},
+  abstract = {Large language models (LLMs) are increasingly used to support question answering and decision-making in high-stakes, domain-specific settings such as natural hazard response and infrastructure planning, where effective answers must convey fine-grained, decision-critical details. However, existing evaluation frameworks for retrieval-augmented generation (RAG) and open-ended question answering primarily rely on surface-level similarity, factual consistency, or semantic relevance, and often fail to assess whether responses provide the specific information required for domain-sensitive decisions. To address this gap, we propose a multi-dimensional, reference-free evaluation framework that assesses LLM outputs along four complementary dimensions: specificity, context utilization, robustness to paraphrasing and semantic perturbations, and answer relevance. We introduce ClimateRiskQA, a curated dataset of 1,412 domain-specific question{--}answer pairs spanning 40 professional roles and seven natural hazard types, and further evaluate on PubMedQA to examine cross-domain generalization. We also conduct human evaluation to assess inter-annotator agreement and alignment between model outputs and human judgments, which highlights the inherent subjectivity of open-ended, domain-specific evaluation. Our results show that no single metric sufficiently captures answer quality in isolation and demonstrate the need for structured, multi-metric evaluation frameworks when deploying LLMs in high-stakes applications.}
 }
 
 @article{chaturvedi2026tacl,
   abbr={TACL},
   author = {Chaturvedi, Rochana and Zhou, Yue and Boyd, Andrew and Layden, Brian T. and Rashid, Mudassir and Cheng, Lu and Cinar, Ali and Di Eugenio, Barbara},
-    title = {Early Risk Prediction with Temporally and Contextually Grounded Clinical Language Processing},
-    journal = {Transactions of the Association for Computational Linguistics},
-    volume = {14},
-    pages = {1711-1733},
-    year = {2026},
-    month = {07},
-    abstract = {Clinical notes in Electronic Health Records (EHRs) capture rich temporal information on events, clinician reasoning, and lifestyle factors often missing from structured data. Leveraging them for predictive modeling can be impactful for timely identification of chronic diseases. However, they present core natural language processing (NLP) challenges: long text, irregular event distribution, complex temporal dependencies, privacy constraints, and resource limitations. We present two complementary methods for temporally and contextually grounded risk prediction from longitudinal notes. First, we introduce HITGNN, a hierarchical temporal graph neural network that integrates intranote temporal event structures, inter-visit dynamics, and medical knowledge to model patient trajectories with fine-grained temporal granularity. Second, we propose REVEAL, a lightweight test-time framework that distills LLMs’ reasoning into smaller verifier models. Applied to opportunistic screening for Type 2 Diabetes (T2D) using temporally realistic cohorts curated from private and public hospital corpora, HITGNN achieves the highest predictive accuracy—especially for near-term risk—while preserving privacy and limiting reliance on large proprietary models. REVEAL enhances sensitivity to true T2D cases and retains explanatory reasoning. Our ablations confirm the value of temporal structure and knowledge augmentation, and fairness analysis shows HITGNN performs more equitably across subgroups.},
-    issn = {2307-387X},
-    doi = {10.1162/TACL.a.748},
-    html = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/TACL.a.748/2612379/tacl.a.748.pdf},
+  title = {Early Risk Prediction with Temporally and Contextually Grounded Clinical Language Processing},
+  journal = {Transactions of the Association for Computational Linguistics},
+  volume = {14},
+  pages = {1711-1733},
+  year = {2026},
+  month = {07},
+  abstract = {Clinical notes in Electronic Health Records (EHRs) capture rich temporal information on events, clinician reasoning, and lifestyle factors often missing from structured data. Leveraging them for predictive modeling can be impactful for timely identification of chronic diseases. However, they present core natural language processing (NLP) challenges: long text, irregular event distribution, complex temporal dependencies, privacy constraints, and resource limitations. We present two complementary methods for temporally and contextually grounded risk prediction from longitudinal notes. First, we introduce HITGNN, a hierarchical temporal graph neural network that integrates intranote temporal event structures, inter-visit dynamics, and medical knowledge to model patient trajectories with fine-grained temporal granularity. Second, we propose REVEAL, a lightweight test-time framework that distills LLMs’ reasoning into smaller verifier models. Applied to opportunistic screening for Type 2 Diabetes (T2D) using temporally realistic cohorts curated from private and public hospital corpora, HITGNN achieves the highest predictive accuracy—especially for near-term risk—while preserving privacy and limiting reliance on large proprietary models. REVEAL enhances sensitivity to true T2D cases and retains explanatory reasoning. Our ablations confirm the value of temporal structure and knowledge augmentation, and fairness analysis shows HITGNN performs more equitably across subgroups.},
+  issn = {2307-387X},
+  doi = {10.1162/TACL.a.748},
+  html = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/TACL.a.748/2612379/tacl.a.748.pdf},
 }
 
 @INPROCEEDINGS{chaturvedi2025graphtrex,
-author = {Chaturvedi, Rochana and Baghershahi, Peyman and Medya, Sourav and Di Eugenio, Barbara},
-title = {Temporal relation extraction in clinical texts: a span-based graph transformer approach},
-year = {2025},
-publisher = {Association for Computational Linguistics},
-abstract = {Temporal information extraction from unstructured text is essential for contextualizing events and deriving actionable insights, particularly in the medical domain. We address the task of extracting clinical events and their temporal relations using the well-studied I2B2 2012 Temporal Relations Challenge corpus. This task is inherently challenging due to complex clinical language, long documents, and sparse annotations. We introduce GraphTREx, a novel method integrating span-based entity-relation extraction, clinical large pre-trained language models (LPLMs), and Heterogeneous Graph Transformers (HGT) to capture local and global dependencies. Our HGT component facilitates information propagation across the document through innovative global landmarks that bridge distant entities and improves the state-of-the-art with 5.5% improvement in the tempeval F1 score over the previous best and up to 8.9% improvement on long-range relations, which presents a formidable challenge. We further demonstrate generalizability by establishing a strong baseline on the E3C corpus. Not only does this work advance temporal information extraction, but also lays the groundwork for improved diagnostic and prognostic models through enhanced temporal reasoning.},
-booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-abbr={ACL},
-html={https://aclanthology.org/2025.acl-long.1251/},
-keywords = {named entity recognition and relation extraction, event extraction, knowledge base construction, document-level extraction, graph-based methods, structured prediction, clinical NLP},
-location = {<conf-loc>, <city>Vienna</city>, <country>Austria</country>, </conf-loc>},
-series = {ACL '25}
+  author = {Chaturvedi, Rochana and Baghershahi, Peyman and Medya, Sourav and Di Eugenio, Barbara},
+  title = {Temporal relation extraction in clinical texts: a span-based graph transformer approach},
+  year = {2025},
+  publisher = {Association for Computational Linguistics},
+  abstract = {Temporal information extraction from unstructured text is essential for contextualizing events and deriving actionable insights, particularly in the medical domain. We address the task of extracting clinical events and their temporal relations using the well-studied I2B2 2012 Temporal Relations Challenge corpus. This task is inherently challenging due to complex clinical language, long documents, and sparse annotations. We introduce GraphTREx, a novel method integrating span-based entity-relation extraction, clinical large pre-trained language models (LPLMs), and Heterogeneous Graph Transformers (HGT) to capture local and global dependencies. Our HGT component facilitates information propagation across the document through innovative global landmarks that bridge distant entities and improves the state-of-the-art with 5.5% improvement in the tempeval F1 score over the previous best and up to 8.9% improvement on long-range relations, which presents a formidable challenge. We further demonstrate generalizability by establishing a strong baseline on the E3C corpus. Not only does this work advance temporal information extraction, but also lays the groundwork for improved diagnostic and prognostic models through enhanced temporal reasoning.},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  abbr={ACL},
+  html={https://aclanthology.org/2025.acl-long.1251/},
+  keywords = {named entity recognition and relation extraction, event extraction, knowledge base construction, document-level extraction, graph-based methods, structured prediction, clinical NLP},
+  location = {<conf-loc>, <city>Vienna</city>, <country>Austria</country>, </conf-loc>},
+  series = {ACL '25}
 }
 
 @INPROCEEDINGS{10.1145/3589334.3645675,
-author = {Chaturvedi, Rochana* and Chaturvedi, Sugat* and Zheleva, Elena},
-title = {Bridging or Breaking: Impact of Intergroup Interactions on Religious Polarization},
-year = {2024},
-isbn = {9798400701719},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-abbr={WWW},
-html={https://doi.org/10.1145/3589334.3645675},
-doi = {10.1145/3589334.3645675},
-abstract = {While exposure to diverse viewpoints may reduce polarization, it can also have a backfire effect and exacerbate polarization when the discussion is adversarial. Here, we examine the question whether intergroup interactions around important events affect polarization between majority and minority groups in social networks. We compile data on the religious identity of nearly 700,000 Indian Twitter users engaging in COVID-19-related discourse during 2020. We introduce a new measure for an individual's group conformity based on contextualized embeddings of tweet text, which helps us assess polarization between religious groups. We then use a meta-learning framework to examine heterogeneous treatment effects of intergroup interactions on an individual's group conformity in the light of communal, political, and socio-economic events. We find that for political and social events, intergroup interactions reduce polarization. This decline is weaker for individuals at the extreme who already exhibit high conformity to their group. In contrast, during communal events, intergroup interactions can increase group conformity. Finally, we decompose the differential effects across religious groups in terms of emotions and topics of discussion. The results show that the dynamics of religious polarization are sensitive to the context and have important implications for understanding the role of intergroup interactions.},
-booktitle = {Proceedings of the ACM on Web Conference 2024},
-pages = {2672–2683},
-numpages = {12},
-keywords = {intergroup interaction, polarization, religion, social media},
-location = {<conf-loc>, <city>Singapore</city>, <country>Singapore</country>, </conf-loc>},
-series = {WWW '24}
+  author = {Chaturvedi, Rochana* and Chaturvedi, Sugat* and Zheleva, Elena},
+  title = {Bridging or Breaking: Impact of Intergroup Interactions on Religious Polarization},
+  year = {2024},
+  isbn = {9798400701719},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  abbr={WWW},
+  html={https://doi.org/10.1145/3589334.3645675},
+  doi = {10.1145/3589334.3645675},
+  abstract = {While exposure to diverse viewpoints may reduce polarization, it can also have a backfire effect and exacerbate polarization when the discussion is adversarial. Here, we examine the question whether intergroup interactions around important events affect polarization between majority and minority groups in social networks. We compile data on the religious identity of nearly 700,000 Indian Twitter users engaging in COVID-19-related discourse during 2020. We introduce a new measure for an individual's group conformity based on contextualized embeddings of tweet text, which helps us assess polarization between religious groups. We then use a meta-learning framework to examine heterogeneous treatment effects of intergroup interactions on an individual's group conformity in the light of communal, political, and socio-economic events. We find that for political and social events, intergroup interactions reduce polarization. This decline is weaker for individuals at the extreme who already exhibit high conformity to their group. In contrast, during communal events, intergroup interactions can increase group conformity. Finally, we decompose the differential effects across religious groups in terms of emotions and topics of discussion. The results show that the dynamics of religious polarization are sensitive to the context and have important implications for understanding the role of intergroup interactions.},
+  booktitle = {Proceedings of the ACM on Web Conference 2024},
+  pages = {2672–2683},
+  numpages = {12},
+  keywords = {intergroup interaction, polarization, religion, social media},
+  location = {<conf-loc>, <city>Singapore</city>, <country>Singapore</country>, </conf-loc>},
+  series = {WWW '24}
 }
 
 @INPROCEEDINGS{chaturvedi2024temporal,
@@ -87,7 +87,7 @@ series = {WWW '24}
   abstract={Clinical text in electronic health records (EHR) holds vital cues into a patient's journey, often absent in structured EHR data. Evidence-based healthcare decisions demand accurate extraction and modeling of these cues. The goal of our study is to predict Type-II Diabetes by utilizing concept-based models of visit sequences from longitudinal EHR data. We undertake the challenging task of fine-grained temporal information extraction from clinical text using a recent span-based approach with pre-trained transformers. We achieve a new state-of-the-art in end-to-end relation extraction from 2012 clinical temporal relations corpus. We propose to apply our model to a new dataset and extract patient-centric temporal knowledge graphs from their visits-fusing temporal orderings within documents and across visits. Beyond the current focus of our work on Type-II Diabetes risk prediction from EHR, our versatile framework can be extended to other domains including web-based healthcare systems for personalized medicine. It can not only model health outcomes having long progression timelines but also various socio-economic outcomes such as conflict, natural disasters, and financial markets by leveraging news, reports, and social-media text for extracting and modeling irregular time-series and help inform a variety of web-based applications and policies.}
 }
 
-@inproceedings{bhattacharya-etal-2022-lchqa,
+@INPROCEEDINGS{bhattacharya-etal-2022-lchqa,
     title = {LCHQA-Summ: Multi-perspective Summarization of Publicly Sourced Consumer Health Answers},
     author = {Bhattacharya, Abari*  and Chaturvedi, Rochana*  and Yadav, Shweta},
     editor = {Krahmer, Emiel and McCoy, Kathy and Reiter, Ehud},
@@ -111,7 +111,7 @@ series = {WWW '24}
   pages={34--49},
   year={2024},
   publisher={Cambridge University Press},
-  abbr={Pol. Analysis},
+  abbr={Political Analysis},
   html={https://bit.ly/42TEphZ},
   abstract={Large-scale microdata on group identity are critical for studies on identity politics and violence but remain largely unavailable for developing countries. We use personal names to infer religion in South Asia—where religion is a salient social division, and yet, disaggregated data on it are scarce. Existing work predicts religion using a dictionary-based method, and therefore, cannot classify unseen names. We provide character-based machine learning models that can classify unseen names too with high accuracy. Our models are also much faster, and hence, scalable to large datasets. We explain the classification decisions of one of our models using the layer-wise relevance propagation technique. The character patterns learned by the classifier are rooted in the linguistic origins of names. We apply these to infer the religion of electoral candidates using historical data on Indian elections and observe a trend of declining Muslim representation. Our approach can be used to detect identity groups across the world for whom the underlying names might have different linguistic roots.}
 }
